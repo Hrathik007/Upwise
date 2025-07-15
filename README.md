@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Upwise 🎓
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clean, modern online learning platform built from the ground up using React and Firebase. Upwise lets learners and instructors engage seamlessly—with a simple UI and powerful real-time features under the hood.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 What is Upwise?
 
-### `npm start`
+Upwise is a web-based platform for creating and enrolling in courses. Think of it as a lightweight version of Udemy—built for practice, showcasing skills, or even powering your own course startup.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Whether you're an instructor uploading new content or a learner browsing and enrolling, the experience is smooth, responsive, and tailored for both roles.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Core Highlights
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔐 Firebase Auth: Secure signup/login flow
+- 🎭 Dual-role Dashboard: Learner and Instructor dashboards are separated
+- ➕ Instructors can:
+  - Add new courses with descriptions
+  - Manage all uploaded courses
+- 📚 Learners can:
+  - View available courses
+  - Enroll in selected ones
+  - Track progress through “My Courses”
+- 💻 Clean UI: Built with Bootstrap 5 and styled components
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧩 Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Layer         | Tech Used             |
+|---------------|------------------------|
+| Frontend      | React, React Router    |
+| Styling       | Bootstrap 5 + Custom CSS |
+| Backend       | Firebase (Auth + Firestore) |
+| Deployment    | GitHub Pages (or Firebase Hosting) |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🖼 Preview
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> You can add screenshots later here to showcase your home page, dashboard, and course view.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠 Setup Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone and run locally:
 
-## Learn More
+```bash
+git clone https://github.com/hrathik007/upwise.git
+cd upwise
+npm install
+npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
